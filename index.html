@@ -1,0 +1,285 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>ECE5 Lab 4</title> 
+    <meta name="description" content="sketchbook">
+    <meta name="author" content="sketchbook">
+    <link rel="stylesheet" href="sketchbook.css"> <!-- this imports the CSS file. do not remove -->
+  </head>
+
+  <body>
+    
+<!--   *********************  HEADING START *********************   --> 
+    
+    <div class="heading">
+      <h3 class='name'>First Name / Last Name <br> First Name / Last Name <br>...</h3> 
+      <h3 class=pId>PID: A12345678 <br> PID: A12345678 <br>...</h3>
+            
+      <h1>ECE 5 Website</h1> <!-- h1 is heading 1 -->
+    </div>
+    
+<!--   *********************  HEADING END *********************   --> 
+    
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
+
+
+<!--   *********************  INTRO START *********************   --> 
+    
+    <section class="main">
+      <h2> Objective</h2>
+      <p1>Enter the objective of your lab here ...</p1> 
+      
+      <br><br>
+      
+      <p1>Enter image of your poster below and then delete this line line of code</p1> 
+      
+      <br><br>
+      
+      <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+       
+      <br><br>
+<!--   *********************  INTRO END *********************   --> 
+      
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
+ 
+      
+<!--   *********************  BUTTONS START *********************   -->
+      
+<!----------------------------------------  BUTTON 1 ---------------------------------------->
+      
+      <div class='center'>
+        <button type='button' onclick="toggleText1()" class="btn">Challenges #1 & #2</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive1' style='display: none'>
+        <div class='box1'>
+          <br>
+            <img src = 'https://lh3.googleusercontent.com/4QSaNvAtvonpkazhjnWcMvMsWkGzwgC3JyyvtuG9xCq29BoPq9SUCtA8ptSgjnUiB9OUsx1ZVX8vX_Z3CKefdHRW-JSTEJf8DWr66hNi0a-kC2JcyykIPfJ3uBdyQ2HOzKfzTc6z=w600' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/5_4idexKpIZmRt_U0AK9cyNYSua4O-qppJQHYEUcKja6uSl-EXYzgA-ecBoxPhfUnJ8IUzHJxJkc_19WwPpu81I5rGGrVLOfAKg7twiZox_YKAp-kEVWF1jE6Wl4znljcHLmzy3V=w600' class='imgmar'>
+            <br>
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 Add a picture of your breadboarded potentiometers <br> 
+              IMG2 Add picture of your breadboarded photoresistors</p2>
+            <br><br>
+         
+          <p class='box2'>
+            Comments on output? 
+            What range of values did your potentiometer output? 
+            Did Turning your potentiometer clockwise increase or decrease the value?
+            <br><br>
+            &emsp; Answer here...
+            <br><br><br> 
+            What range of values did your photo resistors output for a white surface and for a black surface?
+            <br><br>
+            &emsp; Answer here...
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div box1 -->
+      </div> <!-- This is the end of div interactive -->
+      
+<!----------------------------------------  BUTTON 2 ---------------------------------------->
+        
+      <div class ='center'> <!-- we put the buton in a container to center it -->
+        <button type='button' onclick="toggleText2()" class="btn">Challenge #3 & #4</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive2' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 Add a screenshot of your solidworks chasis model <br> 
+              IMG2 Add picture of your 3D printed chasis</p2>
+            <br><br>
+          
+          <p class='box2'>
+            Explain what you have created, what functional modifications (need at least 2) 
+            you made to the design and add a picture of your 3D printed chassis. 
+            <br><br>
+            &emsp; Answer here...
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 3 ---------------------------------------->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText3()" class="btn">Challenge #3 & #4</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive3' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 Add a picture vehicle including chassis, wheels, motors, and caster <br> 
+              IMG2 Add picture of your soldered motor shield connected to an Arduino mega</p2>
+            <br><br>
+          
+          <p class='box2'>
+            What is the purpose of the motor driver/shield?
+            <br><br>
+            &emsp; Answer here...
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 4 ----------------------------------------> 
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText4()" class="btn">Challenge #6 & #7</button>
+      </div> <!--end of div class center -->
+            
+      <div class="interactive" id='interactive4' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 Add a picture of your fully assembled robot with all components and circuitry</p2>
+           <br><br>
+          
+          <p class='box2'>
+            Challenge #7: Explain why you need to calibrate your photoresistor values. 
+            What problem does this help solve and what problems do you still see coming from your photoresistors?  
+            <br><br>
+            &emsp; Answer here...
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 5 ---------------------------------------->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText5()" class="btn">Challenge #8</button>
+      </div> <!--end of div class center -->
+            
+      <div class="interactive" id='interactive5' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 Add a picture of your robot following a line 
+              (please also attach any updated video to your submission under the video tab)</p2>
+            <br><br> 
+          
+          <p class='box2'>
+            What was the best PID values that you used? How well did this track? Any limitations?
+            <br><br>
+            &emsp; Answer here...
+            <br><br><br>
+            What does PID stand for?  What is the purpose of the P, the I, and the D?  
+            What steps did you take to choose the best values for your robot? 
+            Explain this like you would for someone taking this course next year.
+            <br><br>
+            &emsp; Answer here...
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 6 ---------------------------------------->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText6()" class="btn">Video</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive6' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>
+            Insert a video of your robot in action!
+          </p> <!-- p is paragraph -->
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
+            <br>
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!--   *********************  BUTTONS END *********************   --> 
+      
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
+      
+    </section>
+    <!-- This is the end of our section -->
+
+  </body>
+  
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
+
+<!--   *********************  JAVASCRIPT CODE *********************   -->
+  
+  <script>
+    function toggleText1(text) {
+      var text = document.getElementById("interactive1");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+
+    function toggleText2(text) {
+      var text = document.getElementById("interactive2");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+    function toggleText3(text) {
+      var text = document.getElementById("interactive3");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+    function toggleText4(text) {
+      var text = document.getElementById("interactive4");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+    
+    function toggleText5(text) {
+      var text = document.getElementById("interactive5");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+    
+    function toggleText6(text) {
+      var text = document.getElementById("interactive6");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+  </script>
+
+</html>
+
+
+<!--add poster (outside) and video tabs / tab of team photo, tab of team logo-->
